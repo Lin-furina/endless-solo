@@ -11,7 +11,7 @@ const pages = resolvePageToggles({
 	// ── 社交 (Social) ──────────────────────────────────
 
 	// 友链页面开关
-	friends: false,
+	friends: true,
 	// 留言板页面开关，需要配置评论系统
 	guestbook: false,
 
@@ -47,8 +47,8 @@ export const siteConfig: SiteConfig = {
 	// 站点副标题
 	subtitle: "不休独舞",
 
-	// 站点 URL（上线拿到真实域名后改这里）
-	site_url: "https://endless-solo.pages.dev",
+	// 站点 URL（线上地址，部署后已回填）
+	site_url: "https://endless-solo-blog.pages.dev",
 
 	// 站点描述
 	description:
